@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.markssheet{
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 0 10px black;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 25px;
+  margin: 20px;
+}
+.markssheet label{
+  display: inline-block;
+  width: 100px;
+}
+.markssheet div{
+  margin: 15px;
+}
+.markssheet span{
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+button{
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+button:hover{
+  background-color: gray;
+  color: whitesmoke;
+}
